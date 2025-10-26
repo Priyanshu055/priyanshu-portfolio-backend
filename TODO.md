@@ -1,6 +1,7 @@
 - [x] Fix typo in api/contact.js: change "createTransporter" to "createTransport"
 - [x] Update fronted/package.json: change name from "fronted" to "portfolio"
 - [x] Add redirect in vercel.json to redirect from fronted-kohl.vercel.app to priyanshu-portfolio.vercel.app
+- [x] Update vercel.json redirect to latest production URL (priyanshu-portfolio.vercel.app)
 - [x] Redeploy the app on Vercel after changes
 - [ ] Test the redirect by visiting fronted-kohl.vercel.app
 - [ ] Delete the old Vercel project "fronted-kohl" from Vercel dashboard
@@ -16,4 +17,3 @@
 - [ ] Update frontend Contact.js to use Railway backend URL
 - [ ] Update frontend Resume.js to use Railway backend URL
 - [ ] Test API endpoints on Railway
-- [ ] Test full frontend-backend integration
