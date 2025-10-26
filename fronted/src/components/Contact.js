@@ -20,7 +20,7 @@ const Contact = () => {
     setSubmitMessage('');
 
     try {
-      const response = await fetch('https://portfolio-backend-gn1xhpmjs-priyanshu-05s-projects-5027ab72.vercel.app/api/contact', {
+      const response = await fetch('https://portfolio-backend-jbugi3b7r-priyanshu-05s-projects-5027ab72.vercel.app/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
