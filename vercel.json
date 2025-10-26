@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://my-portfolio-2b8988amd-priyanshu-05s-projects-5027ab72.vercel.app/$1",
+      "destination": "https://my-portfolio-df0pzxh65-priyanshu-05s-projects-5027ab72.vercel.app/$1",
       "permanent": true
     }
   ]
