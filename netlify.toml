@@ -1,0 +1,12 @@
+[build]
+  command = "cd fronted && npm run build"
+  publish = "fronted/build"
+  functions = "api"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200

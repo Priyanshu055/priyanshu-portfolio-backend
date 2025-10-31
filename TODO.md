@@ -7,13 +7,12 @@
 - [ ] Delete the old Vercel project "fronted-kohl" from Vercel dashboard
 - [ ] Test the contact form to ensure it works
 
-# TODO: Deploy Backend to Railway and Frontend to Vercel
+# Backend Deployment (Using Vercel instead of Railway)
 
-- [ ] Create new GitHub repository for backend code (portfolio-backend)
-- [ ] Push portfolio-backend code to the new GitHub repo
-- [ ] Deploy backend to Railway from GitHub repo
-- [ ] Configure environment variables on Railway (EMAIL_USER, EMAIL_PASS, PORT=5000)
-- [ ] Deploy frontend to Vercel from GitHub repo
-- [ ] Update frontend Contact.js to use Railway backend URL
-- [ ] Update frontend Resume.js to use Railway backend URL
-- [ ] Test API endpoints on Railway
+- [x] Create new GitHub repository for backend code (priyanshu-portfolio-backend)
+- [x] Push portfolio-backend code to the new GitHub repo
+- [x] Deploy backend to Vercel (already deployed as portfolio-backend-jbugi3b7r-priyanshu-05s-projects-5027ab72.vercel.app)
+- [x] Update frontend Contact.js to use Vercel backend URL
+- [x] Update frontend Resume.js to use Vercel backend URL
+- [x] Test API endpoints on Vercel backend (backend is deployed and accessible)
+- [ ] Test full frontend-backend integration
